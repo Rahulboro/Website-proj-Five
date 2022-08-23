@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+
+body {
+    background-color:#0D0D0D;
+    padding: 0;
+    margin: 0;
+    color: rgb(194, 194, 194);
+    font-family: Prompt;
+}
+.navbar{
+    height: 18px;
+
+}
+.logo{
+    height: 32px;
+    margin: 20px;
+    padding: 10px 10px 10px 60px;
+    display: inline;
+}
+.grow-list {
+    position: absolute;
+    top: 22px; left: 230px;
+}
+.list{
+    position: relative;
+    list-style: none;
+}
+.list-item {
+    display: inline;
+    padding: 40px;
+}
+.button-small{
+    padding: 10px 27px;
+    font-size: 16px;
+    font-weight: 900;
+    position: absolute;
+    background-color:#BA0DC5;
+    color: #d8cccc;
+    top: 24px; right: 50px;
+    border-radius: 0.5em 0.5em;
+    border-color: #BA0DC5;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+}
+.hero-heading{
+    color: #f0f8ff;
+    position: relative;
+    top: 130px; left: 350px;
+    width: 900px;
+    font-size: 80px;
+    line-height: 90px;
+}
+.hero-description{
+    position: relative;
+    top:80px; left: 480px;
+    font-size: 25px;
+    color: #f0f8ff;
+
+}
+.button-large{
+    position: relative;
+    top: 120px; left: 550px;
+    padding: 18px 30px;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 0.4em 0.4em;
+    background-color:#BA0DC5;
+    border-color: #BA0DC5;
+    color: #fcfcfc;
+    text-align: center;
+}
